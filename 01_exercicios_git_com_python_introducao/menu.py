@@ -29,6 +29,9 @@ def menu():
             elif opcao == '2':
                 resultado = calculadora_menu.subtrair(num1, num2)
                 print(f"Resultado da Subtração: {resultado}")
+            elif opcao == '3':
+                resultado = calculadora_menu.multiplicar(num1, num2)
+                print(f"Resultado da Multiplicação: {resultado}")
         else:
             print("Opção inválida! Tente novamente.")
 menu ()
