@@ -1,0 +1,4 @@
+import calculadora_menu
+def somar(a, b):
+    return a + b
+
