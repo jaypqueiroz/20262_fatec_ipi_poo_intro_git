@@ -32,6 +32,12 @@ def menu():
             elif opcao == '3':
                 resultado = calculadora_menu.multiplicar(num1, num2)
                 print(f"Resultado da Multiplicação: {resultado}")
+            elif opcao == '4':
+                if num2 == 0:
+                    print("Erro: Impossível dividir por zero!")
+                else:
+                    resultado = calculadora_menu.dividir(num1, num2)
+                    print(f"Resultado da Divisão: {resultado}")
         else:
             print("Opção inválida! Tente novamente.")
 menu ()
