@@ -26,6 +26,9 @@ def menu():
             if opcao == '1':
                 resultado = calculadora_menu.somar(num1, num2)
                 print(f"Resultado da Soma: {resultado}")
+            elif opcao == '2':
+                resultado = calculadora_menu.subtrair(num1, num2)
+                print(f"Resultado da Subtração: {resultado}")
         else:
             print("Opção inválida! Tente novamente.")
 menu ()
